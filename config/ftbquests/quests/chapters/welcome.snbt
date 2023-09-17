@@ -1,0 +1,180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "1D10C93B9EC01B16"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to the modpack! While &cReal2Two&r does include a lot of mods from the previous server, however, there are quite a few new mods and some mods that have been tweaked with &dKubeJS&r. This questbook will help you get through them much easier. Click the checkbox above to complete this first quest and move on."]
+			hide: true
+			icon: "minecraft:diamond"
+			id: "2F4BAAC38A93AD75"
+			shape: "hexagon"
+			tasks: [{
+				id: "30F942EDFFEAFC1E"
+				title: "Checkbox"
+				type: "checkmark"
+			}]
+			title: "Welcome to Real2Two!"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F4BAAC38A93AD75"]
+			description: ["The quest book has multiple different kinds of tasks, such as a Crafting Task (completed only by crafting the required item), gathering tasks (completed by just having the block in your inventory), and checkboxes (just clicking the checkbox will finish the quest). If you ever lose your quest book, look through REI to find the recipe to craft a new one."]
+			hide_dependency_lines: true
+			icon: "ftbquests:book"
+			id: "3FA04B7002FFB1AE"
+			shape: "rsquare"
+			tasks: [{
+				id: "2CA10620EFEFE41F"
+				title: "Checkbox"
+				type: "checkmark"
+			}]
+			title: "The Quest Book"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F4BAAC38A93AD75"]
+			description: [
+				"KubeJS is a mod that allows features such as editing recipies, tags and items. It was used in this modpack to change some recipes that were either too hard or too easy."
+				""
+				"Note: This means that a lot of information on wikis will be &cwrong&r. I'm looking at you, Evelyn."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:filled_map"
+			id: "240B28814DA1BDBF"
+			shape: "rsquare"
+			tasks: [{
+				id: "46F42677707D4E23"
+				title: "Checkbox"
+				type: "checkmark"
+			}]
+			title: "KubeJS"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2F4BAAC38A93AD75"
+				"3FA04B7002FFB1AE"
+				"240B28814DA1BDBF"
+			]
+			description: ["You know the drill. Punch a tree, mine some stone, get some armor. Here we encounter our first recipe change, being iron armor requiring significantly more iron. Check REI for the new recipe."]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "623293E115110273"
+			shape: "hexagon"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "67EDD9415C42F905"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "1x Iron Helmet"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "582E5DACE5BDABCA"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "1x Iron Chestplate"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3BD80448B0739941"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "1x Iron Leggings"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3F117DEC51CCB963"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "1x Iron Boots"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "52F072E9FC3638B7"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "1x Iron Pickaxe"
+					type: "item"
+				}
+			]
+			title: "Running Through the Motions"
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "Welcome!"
+}

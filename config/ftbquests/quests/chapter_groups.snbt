@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "4B948EC8108E2618", title: "Magics" }
+		{ id: "0EA7FD5781F17927", title: "Technology" }
+		{ id: "244CDB74C98116F5", title: "Combat" }
+		{ id: "24C19464073044DB", title: "Endgame" }
+	]
+}

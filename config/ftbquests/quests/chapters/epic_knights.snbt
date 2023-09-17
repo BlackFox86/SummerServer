@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epic_knights"
+	group: "244CDB74C98116F5"
+	id: "2745AF6E4E4878C1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["So... last time we played with Epic Knights, it was just a tiny bit OP (you could murder everyone one/thing with one hit). So... I modified it a bit. And by a bit I mean a lot. Have fun..."]
+			icon: {
+				Count: 1b
+				id: "magistuarmory:steel_flamebladedsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E03E719D571C599"
+			shape: "hexagon"
+			tasks: [{
+				id: "4BE7F6BED44F44C9"
+				title: "Checkbox"
+				type: "checkmark"
+			}]
+			title: "Not So Epic After All..."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E03E719D571C599"]
+			description: [
+				"So all Epic Knights armor and weapons require some form of steel. And steel is locked behind some decent Mystical Agriculture progress. So in order to get into Epic Knights, you're pretty much required to get some Mystical Agriculture essence first. Check REI for an updated recipe."
+				""
+				"Hint: check the smelting tab."
+			]
+			icon: "magistuarmory:steel_ingot"
+			id: "1FFFCCB9CEACDF39"
+			shape: "hexagon"
+			tasks: [{
+				icon: "magistuarmory:steel_ingot"
+				id: "414A8B580C94375B"
+				item: "magistuarmory:steel_ingot"
+				title: "1x Steel Ingot"
+				type: "item"
+			}]
+			title: "Steelio"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Epic Knights"
+}
